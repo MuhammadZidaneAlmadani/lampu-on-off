@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontrol Lampu</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <h2>Kontrol Lampu</h2>
+  <div class="lamp-container">
+    <img id="lamp" src="img/lampu-off.gif" alt="Lampu Mati" class="lamp">
+  </div>
+  <button class="btn" onclick="turnOn()">Hidupkan</button>
+  <button class="btn" onclick="turnOff()">Matikan</button>
+
+  <script>
+    function turnOn() {
+      document.getElementById("lamp").src = "img/lampu-on.gif";
+    }
+
+    function turnOff() {
+      document.getElementById("lamp").src = "img/lampu-off.gif";
+    }
+  </script>
+</body>
+
+</html>
