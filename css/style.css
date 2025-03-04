@@ -18,3 +18,11 @@ body {
   margin: 10px;
   cursor: pointer;
 }
+
+.btn-hijau{
+  background-color: green;
+}
+
+.btn-merah{
+  background-color: red;
+}
